@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, request
 from flask_restful import Api, Resource, reqparse, abort
-import db_config as database
+import app.db_config as database
 from flask_cors import CORS
 
 app = Flask(__name__)
